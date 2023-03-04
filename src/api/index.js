@@ -14,7 +14,7 @@ const URL =
 //     tr_longitude: "109.149359",
 //   },
 //   headers: {
-//     "X-RapidAPI-Key": "4b9735bdcamsh7cf7f7275db9c98p11a444jsn4c2143473703",
+//     "X-RapidAPI-Key": "api-key",
 //     "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
 //   },
 // };
@@ -31,7 +31,7 @@ export const getPlacesData = async (sw, ne) => {
         tr_longitude: ne.lng,
       },
       headers: {
-        "X-RapidAPI-Key": "4b9735bdcamsh7cf7f7275db9c98p11a444jsn4c2143473703",
+        "X-RapidAPI-Key": "api-key",
         "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
       },
     });
